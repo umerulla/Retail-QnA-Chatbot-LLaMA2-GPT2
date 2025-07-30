@@ -1,5 +1,7 @@
 #  Retail Chatbot for a Chocolate Retail Business 
 
+Fine tuned model link: https://drive.google.com/file/d/1jKaaXJ31wHnbciCGqBXg-HZeI-10uZdZ/view?usp=sharing
+
 This project features a chatbot built using Meta’s LLaMA2 7B model, fine-tuned via QLoRA on 1000 QnAs tailored for a premium chocolate retail business.
 
 The chatbot can answer questions related to:
@@ -46,15 +48,15 @@ Training was done using **QLoRA** with `SFTTrainer` from `trl`. LoRA adapters we
 ## 📁 Folder Structure
 ```plaintext
 Llama-Retail-Chatbot/
-├── Llama_Model_for_Retail_Business.ipynb  # Colab notebook for QLoRA fine-tuning
-├── data-files/                          # QnA data splits used for training
-│   ├── train.txt                        # Training set (formatted QnAs)
-│   ├── test.txt                         # Test set
-│   └── validation.txt                   # Validation set               
-├── requirements.txt                    # Full environment for Colab fine-tuning
-├── requirements_minimal.txt            # Minimal dependencies for running the bot
+├── data-files/
+    ├── train.txt                        # Training set   (formatted QnAs)
+    ├── test.txt                         # Test set       (formatted QnAs)
+    └── validation.txt                   # Validation set (formatted QnAs)                         
+├── Llama_model_for_Retail_Business.py   # Colab notebook for QLoRA fine-tuning
+├── README.md                            # Project documentation             
+├── requirements.txt                     # Full environment for Colab fine-tuning
+├── requirements_minimal.txt             # Minimal dependencies for running the bot
 ├── runbot.py                            # Command-line chatbot for local inference
-└── README.md                           # Project documentation
 
 ```
 
