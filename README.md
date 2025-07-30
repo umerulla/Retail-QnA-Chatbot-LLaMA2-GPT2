@@ -1,2 +1,60 @@
-# Retail-QnA-Chatbot-LLaMA2-GPT2
-A chocolate retail QnA chatbot using LLaMA2-7B (QLoRA) and GPT-2, designed for real-time customer support with fallback logic and curated answers.
+# Chocolate Retail QnA Chatbot – LLaMA2-7B & GPT-2
+
+This repository contains two domain-specific chatbots for a premium chocolate retail business — built using **Meta’s LLaMA2-7B (via QLoRA)** and **OpenAI’s GPT-2** models.
+
+The bots are trained on 1000 QnAs to handle queries related to:
+
+-  Gifting, packaging, freshness, pricing  
+-  Dietary needs, daily consumption  
+-  Bulk orders, international questions  
+-  Casual, funny, emotional tones and more
+
+---
+
+## 📁 Repository Structure
+
+```
+Retail-QnA-Chatbot-LLaMA2-GPT2/
+├── GPT2_Model/              ← GPT-2 based chatbot
+├── LLaMA2_Model/            ← LLaMA2-7B QLoRA chatbot (better performance)
+├── README.md                ← You're here!
+```
+
+---
+
+## ⚖️ Model Comparison Summary
+
+| Metric                | GPT-2             | LLaMA2-7B (QLoRA)       |
+|-----------------------|-------------------|--------------------------|
+| Validation Loss       | 0.1686            | 0.1156                   |
+| Perplexity            | 1.18              | 1.12                     |
+| Accuracy (Exact Match)| 96.00%            | 100.00%                  |
+| Output Quality        | Basic, generic    | Highly contextualized    |
+| Recommended For Use   | ❌ No             | ✅ Yes                   |
+
+> 🔍 GPT-2 is included for comparison purposes only.  
+👉 **Please use the `LLaMA2_Model` folder for best results.**
+
+---
+
+## 🧠 Tech Stack
+
+- Transformers, TRL, PEFT, Bitsandbytes  
+- QLoRA for 4-bit fine-tuning on LLaMA2  
+- Python + Google Colab  
+- Dataset: Curated synthetic QnA pairs  
+
+---
+
+## 📥 Fine-Tuned Model Access
+
+The LLaMA2 model is too large for GitHub.
+
+🔗 [Download LLaMA2 fine-tuned model (.pt) here](https://drive.google.com/file/d/1jKaaXJ31wHnbciCGqBXg-HZeI-10uZdZ/view?usp=sharing)
+
+Instructions for setup are included in the `LLaMA2_Model/README.md`.
+
+---
+
+## 🙋‍♂️ Maintainer  
+Umerulla Belavadi – [umerullab@gmail.com]
