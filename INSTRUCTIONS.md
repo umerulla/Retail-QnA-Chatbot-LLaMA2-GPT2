@@ -37,7 +37,7 @@ This guide provides step-by-step instructions to **run the ChatBot** in your Win
 
 Run the following commands in **VS Code terminal**:  
 
-C:\Users\XYZ\AppData\Local\Programs\Python\Python310\python.exe -m venv .venv
+C:\Users\XYZ\AppData\Local\Programs\Python\Python310\python.exe -m venv .venv  # Add your file where the python is installed 
 
 .venv\Scripts\activate
 
