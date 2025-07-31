@@ -17,7 +17,9 @@ The bots are trained on 1000 QnAs to handle queries related to:
 Retail-QnA-Chatbot-LLaMA2-GPT2/
 ├── GPT2_Model/              ← GPT-2 based chatbot
 ├── LLaMA2_Model/            ← LLaMA2-7B QLoRA chatbot (better performance)
+├── INSTRUCTIONS.md          ← Intruction to run Chatbot on your system locally
 ├── README.md                ← You're here!
+
 ```
 
 ---
