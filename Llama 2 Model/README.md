@@ -1,6 +1,6 @@
 #  Retail Chatbot for a Chocolate Retail Business 
 
-Fine tuned model link: https://drive.google.com/file/d/1jKaaXJ31wHnbciCGqBXg-HZeI-10uZdZ/view?usp=sharing
+Fine tuned model link: https://drive.google.com/drive/folders/171I3cCbr3BONz7w71wA8_349xP-ACFOJ?usp=sharing
 
 This project features a chatbot built using Meta’s LLaMA2 7B model, fine-tuned via QLoRA on 1000 QnAs tailored for a premium chocolate retail business.
 
