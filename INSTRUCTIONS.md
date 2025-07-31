@@ -43,11 +43,13 @@ C:\Users\XYZ\AppData\Local\Programs\Python\Python310\python.exe -m venv .venv  #
 
 ## **5️⃣ Clone the Project Repository
 git clone https://github.com/umerulla/Retail-QnA-Chatbot-LLaMA2-GPT2.git
+
 cd "Retail-QnA-Chatbot-LLaMA2-GPT2/Llama 2 Model"
 
 
 ## ** 6️⃣ Install Python Dependencies
 python -m pip install --upgrade pip
+
 python -m pip install -r requirements_for_windows.txt
 
 
@@ -62,8 +64,11 @@ tokenizer.json
 
 ## **8️⃣ Set the Model Path in runbot.py
 Open runbot.py in VS Code.
+
 At the top, set the model path like this:
+
 model_path = r"C:/FULL/PATH/TO/Retail-QnA-Chatbot-LLaMA2-GPT2/Llama 2 Model/llama2-final"
+
 💡 Replace with your actual absolute path.
 
 ## **9️⃣ Run the Chatbot
