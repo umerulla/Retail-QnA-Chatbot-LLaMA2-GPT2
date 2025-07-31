@@ -1,6 +1,6 @@
 # 🚀 Llama 2 Chatbot Installation & Usage Guide
 
-This guide provides step-by-step instructions to **run the ChatBot** for the **Llama 2 Model** from this repository:  
+This guide provides step-by-step instructions to **run the ChatBot** in your Windows system for the **Llama 2 Model** from this repository:  
 **`Retail-QnA-Chatbot-LLaMA2-GPT2/Llama 2 Model`**
 
 ---
