@@ -50,11 +50,12 @@ Retail-QnA-Chatbot-LLaMA2-GPT2/
 
 The LLaMA2 model is too large for GitHub.
 
-🔗 [Download LLaMA2 fine-tuned model (.pt) here](https://drive.google.com/file/d/1jKaaXJ31wHnbciCGqBXg-HZeI-10uZdZ/view?usp=sharing)
+🔗 [Download LLaMA2 fine-tuned model (.pt) here](https://drive.google.com/drive/folders/171I3cCbr3BONz7w71wA8_349xP-ACFOJ?usp=drive_link)
 
 Instructions for setup are included in the `LLaMA2_Model/README.md`.
 
 ---
+
 
 ## 🙋‍♂️ Maintainer  
 Umerulla Belavadi – [umerullab@gmail.com]
